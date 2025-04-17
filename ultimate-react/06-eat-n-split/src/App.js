@@ -22,17 +22,23 @@ const initialFriends = [
 ];
 
 export default function App() {
+    const [friends, setFriends] = useState(initialFriends);
     const [showAddFriend, setShowAddFriend] = useState(false);
     
     const handleShowFriend = () => {
         setShowAddFriend((show) => !show);
     };
     
+    const handleAddFriend = (friend) => {
+        setFriends((friends) => [...friends, friend]);
+        handleShowFriend(false);
+    };
+    
     return (
         <div className='app'>
             <div className='sidebar'>
-                <FriendsList/>
-                {showAddFriend && <FormAddFriend/>}
+                <FriendsList friends={friends}/>
+                {showAddFriend && <FormAddFriend onAddFriends={handleAddFriend}/>}
                 <Button onClick={handleShowFriend}>
                     {showAddFriend ? 'Close' : 'Add friend'}
                 </Button>
@@ -47,13 +53,11 @@ function Button({onClick, children}) {
     return <button className='button' onClick={onClick}>{children}</button>;
 }
 
-function FriendsList() {
-    const friends = initialFriends;
-
+function FriendsList({friends}) {
     return (
         <ul>
-            {friends.map((friend)=> (
-                <Friend key={friend.id} friend={friend} />
+            {friends.map((friend) => (
+                <Friend key={friend.id} friend={friend}/>
             ))}
         </ul>
     );
@@ -62,7 +66,7 @@ function FriendsList() {
 function Friend({friend}) {
     return (
         <li key={friend.id}>
-            <img src={friend.image} alt={friend.name} />
+            <img src={friend.image} alt={friend.name}/>
             <h3>{friend.name}</h3>
             
             {friend.balance < 0 && <p className='red'>You owe {friend.name} {Math.abs(friend.balance)}$</p>}
@@ -74,7 +78,7 @@ function Friend({friend}) {
     );
 }
 
-function FormAddFriend() {
+function FormAddFriend({onAddFriends}) {
     const [name, setName] = useState('');
     const [image, setImage] = useState('https://i.pravatar.cc/48');
     
@@ -89,9 +93,9 @@ function FormAddFriend() {
             name,
             image: `${image}?=${id}`,
             balance: 0,
-        }
+        };
         
-        console.log(newFriend);
+        onAddFriends(newFriend);
         
         setName('');
         setImage('https://i.pravatar.cc/48');
