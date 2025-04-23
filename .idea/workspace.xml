@@ -6,34 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="a251cd6b-eb60-4531-abac-055967a02818" name="Changes" comment="temp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultimate-react/07-usepopcorn/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ultimate-react/07-usepopcorn/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultimate-react/todos-list/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ultimate-react/own/todos-list/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultimate-react/todos-list/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ultimate-react/own/todos-list/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultimate-react/todos-list/eslint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/ultimate-react/own/todos-list/eslint.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultimate-react/todos-list/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ultimate-react/own/todos-list/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultimate-react/todos-list/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ultimate-react/own/todos-list/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultimate-react/todos-list/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ultimate-react/own/todos-list/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultimate-react/todos-list/public/vite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/ultimate-react/own/todos-list/public/vite.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultimate-react/todos-list/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/ultimate-react/own/todos-list/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultimate-react/todos-list/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ultimate-react/own/todos-list/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultimate-react/todos-list/src/component/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ultimate-react/own/todos-list/src/component/Button/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultimate-react/todos-list/src/component/Input/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ultimate-react/own/todos-list/src/component/Input/Input.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultimate-react/todos-list/src/component/List/List.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ultimate-react/own/todos-list/src/component/List/List.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultimate-react/todos-list/src/component/ListItem/ListItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ultimate-react/own/todos-list/src/component/ListItem/ListItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultimate-react/todos-list/src/component/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ultimate-react/own/todos-list/src/component/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultimate-react/todos-list/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/ultimate-react/own/todos-list/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultimate-react/todos-list/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ultimate-react/own/todos-list/src/main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultimate-react/todos-list/src/types/list.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ultimate-react/own/todos-list/src/types/list.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultimate-react/todos-list/src/vite-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ultimate-react/own/todos-list/src/vite-env.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultimate-react/todos-list/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/ultimate-react/own/todos-list/tsconfig.app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultimate-react/todos-list/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/ultimate-react/own/todos-list/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultimate-react/todos-list/tsconfig.node.json" beforeDir="false" afterPath="$PROJECT_DIR$/ultimate-react/own/todos-list/tsconfig.node.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultimate-react/todos-list/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ultimate-react/own/todos-list/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultimate-react/07-usepopcorn/src/StarRating.js" beforeDir="false" afterPath="$PROJECT_DIR$/ultimate-react/07-usepopcorn/src/StarRating.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultimate-react/07-usepopcorn/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ultimate-react/07-usepopcorn/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,12 +49,14 @@
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/own/udemy",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.JavaScript",
-    "ts.external.directory.path": "C:\\own\\udemy\\ultimate-react\\todos-list\\node_modules\\typescript\\lib",
+    "settings.editor.selected.configurable": "preferences.sourceCode.TypeScript",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.1.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -101,7 +85,7 @@
       <workItem from="1745310778150" duration="631000" />
       <workItem from="1745311416484" duration="8920000" />
       <workItem from="1745334754287" duration="2251000" />
-      <workItem from="1745391670828" duration="1460000" />
+      <workItem from="1745391670828" duration="4942000" />
     </task>
     <task id="LOCAL-00001" summary="temp">
       <option name="closed" value="true" />
@@ -127,7 +111,23 @@
       <option name="project" value="LOCAL" />
       <updated>1745336349815</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="temp">
+      <option name="closed" value="true" />
+      <created>1745394255162</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1745394255162</updated>
+    </task>
+    <task id="LOCAL-00005" summary="temp">
+      <option name="closed" value="true" />
+      <created>1745394275783</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1745394275783</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
