@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a251cd6b-eb60-4531-abac-055967a02818" name="Changes" comment="temp">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultimate-react/07-usepopcorn/src/StarRating.js" beforeDir="false" afterPath="$PROJECT_DIR$/ultimate-react/07-usepopcorn/src/StarRating.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultimate-react/07-usepopcorn/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ultimate-react/07-usepopcorn/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultimate-react/REAMME.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +83,7 @@
       <workItem from="1745310778150" duration="631000" />
       <workItem from="1745311416484" duration="8920000" />
       <workItem from="1745334754287" duration="2251000" />
-      <workItem from="1745391670828" duration="4942000" />
+      <workItem from="1745391670828" duration="9436000" />
     </task>
     <task id="LOCAL-00001" summary="temp">
       <option name="closed" value="true" />
@@ -127,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745394275783</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="temp">
+      <option name="closed" value="true" />
+      <created>1745399521536</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1745399521536</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
