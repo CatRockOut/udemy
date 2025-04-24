@@ -10,3 +10,5 @@
 *.xml
 *.zip
 *.log
+
+/node_modules
