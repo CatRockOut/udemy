@@ -1,4 +1,4 @@
-import {useEffect, useState} from 'react';
+import {useEffect, useRef, useState} from 'react';
 import StarRating from './StarRating';
 
 const KEY = 'af70b006';
@@ -9,10 +9,15 @@ const average = (arr) =>
 export default function App() {
     const [query, setQuery] = useState('');
     const [movies, setMovies] = useState([]);
-    const [watched, setWatched] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState('');
     const [selectedId, setSelectedId] = useState(null);
+    
+    // const [watched, setWatched] = useState([]);
+    const [watched, setWatched] = useState(() => {
+        const storedValue = localStorage.getItem('watched');
+        return JSON.parse(storedValue);
+    });
     
     const handleSelectMovie = (id) => {
         setSelectedId((selectedId) => id === selectedId ? null : id);
@@ -24,11 +29,17 @@ export default function App() {
     
     const handleAddWatched = (movie) => {
         setWatched((watched) => [...watched, movie]);
+        
+        // localStorage.setItem('watched', JSON.stringify([...watched, movie]));
     };
     
     const handleDeleteWatchedMovie = (id) => {
         setWatched((watched) => watched.filter((movie) => movie.imdbID !== id));
     };
+    
+    useEffect(() => {
+        localStorage.setItem('watched', JSON.stringify(watched));
+    }, [watched]);
     
     useEffect(() => {
         const controller = new AbortController();
@@ -140,6 +151,30 @@ function Logo() {
 }
 
 function Search({query, setQuery}) {
+    const inputElement = useRef(null);
+    
+    useEffect(() => {
+        const callback = (e) => {
+            if (document.activeElement === inputElement.current) return;
+            
+            if (e.code === 'Enter') {
+                inputElement.current.focus();
+                setQuery('');
+            }
+        };
+        
+        document.addEventListener('keydown', callback);
+        
+        return () => {
+            document.addEventListener('keydown', callback);
+        };
+    }, [setQuery]);
+    
+    // useEffect(() => {
+    //     const el = document.querySelector('.search');
+    //     el.focus();
+    // }, []);
+    
     return (
         <input
             className="search"
@@ -147,6 +182,7 @@ function Search({query, setQuery}) {
             placeholder="Search movies..."
             value={query}
             onChange={(e) => setQuery(e.target.value)}
+            ref={inputElement}
         />
     );
 }
@@ -213,6 +249,12 @@ function MovieDetails({selectedId, onCloseMovie, onAddWatched, watched}) {
     const [loading, setLoading] = useState(false);
     const [userRating, setUserRating] = useState('');
     
+    const countRef = useRef(0);
+    
+    useEffect(() => {
+        if (userRating) countRef.current++;
+    }, [userRating]);
+    
     const isWatched = watched.map((movie) => movie.imdbID).includes(selectedId);
     const watchedUserRating = watched.find((movie) => movie.imdbID === selectedId)?.userRating;
     
@@ -237,7 +279,8 @@ function MovieDetails({selectedId, onCloseMovie, onAddWatched, watched}) {
             poster,
             imdbRating: Number(imdbRating),
             runtime: Number(runtime.split(' ').at(0)),
-            userRating
+            userRating,
+            countRatingDecisions: countRef.current
         };
         
         onAddWatched(newWatchedMovie);
