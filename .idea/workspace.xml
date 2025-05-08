@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a251cd6b-eb60-4531-abac-055967a02818" name="Changes" comment="temp">
+      <change afterPath="$PROJECT_DIR$/ultimate-react/12-atomic-blog/src/App-v1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultimate-react/12-atomic-blog/src/PostContext.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultimate-react/12-atomic-blog/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/ultimate-react/12-atomic-blog/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,34 +43,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/own/udemy/ultimate-react/07-usepopcorn/src&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.HTML&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.1.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/own/udemy/ultimate-react/12-atomic-blog/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode.HTML",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.1.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\own\udemy\ultimate-react\07-usepopcorn\src" />
+      <recent name="C:\own\udemy\ultimate-react\12-atomic-blog\src" />
+      <recent name="C:\own\udemy\ultimate-react\11-worldwise\src\components" />
+      <recent name="C:\own\udemy\ultimate-react\11-worldwise\src\pages" />
+      <recent name="C:\own\udemy\ultimate-react\11-worldwise\starter\pages" />
+      <recent name="C:\own\udemy\ultimate-react\11-worldwise\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\own\udemy\ultimate-react\11-worldwise" />
       <recent name="C:\own\udemy\ultimate-react\10-react-quiz\src\components" />
       <recent name="C:\own\udemy\ultimate-react\10-react-quiz" />
       <recent name="C:\own\udemy\ultimate-react\10-react-quiz\src\data" />
       <recent name="C:\own\udemy\ultimate-react\own" />
-      <recent name="C:\own\udemy\ultimate-react\todos-list\src" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -99,6 +106,10 @@
       <workItem from="1745924372005" duration="7141000" />
       <workItem from="1745990100133" duration="12201000" />
       <workItem from="1746022077266" duration="11000" />
+      <workItem from="1746436861449" duration="4346000" />
+      <workItem from="1746460817948" duration="2000" />
+      <workItem from="1746515264251" duration="14000" />
+      <workItem from="1746685210537" duration="3764000" />
     </task>
     <task id="LOCAL-00001" summary="temp">
       <option name="closed" value="true" />
@@ -220,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746022051522</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="temp">
+      <option name="closed" value="true" />
+      <created>1746446783030</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1746446783030</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
